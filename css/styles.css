@@ -68,6 +68,10 @@ nav {
 
 @media only screen and (min-width: 992px) and (max-width: 1439px) {
 	
+	h1 {
+		margin: 20px 40px;
+	}
+	
 	.signup {
 		background-color: #e02800;
 		border-radius: 3px;
@@ -83,6 +87,10 @@ nav {
 }
 
 @media only screen and (min-width: 1440px) {
+	
+	h1 {
+		margin: 20px 40px;
+	}
 	
 	.signup {
 		background-color: #e02800;

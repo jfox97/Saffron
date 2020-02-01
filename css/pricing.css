@@ -22,14 +22,28 @@
 	background-color: #e02800;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 701px) and (max-width: 1439px) {
 	
+	.pricing-matrix {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1439px) {
+/* Weird block to make footer work */
+@media only screen and (min-width: 1351px) {
 	
+	.absolute {
+		position: absolute;
+		bottom: 0;
+	}
 }
 
 @media only screen and (min-width: 1440px) {
 	
+	.pricing-matrix {
+		display: flex;
+		justify-content: center;
+	}
 }
