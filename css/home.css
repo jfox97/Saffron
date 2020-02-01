@@ -23,13 +23,8 @@
 	margin-bottom: 30px;
 }
 
-.header button {
-	background-color: #e02800;
-	color: white;
-	font-weight: 900;
+.header a {
 	font-size: 18px;
-	border: 0px;
-	border-radius: 5px;
 	padding: 10px 40px;
 }
 
@@ -55,14 +50,4 @@
 	font-size: 18px;
 	line-height: 32px;
 	height: 130px;
-}
-
-.detail button {
-	background-color: #e02800;
-	color: white;
-	font-weight: 900;
-	font-size: 14px;
-	border: 0px;
-	border-radius: 5px;
-	padding: 8px 30px;
 }
