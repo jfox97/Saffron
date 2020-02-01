@@ -1,0 +1,35 @@
+.pricing-matrix {
+	margin: 50px 20px;
+}
+
+.pricing-plan {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 40px 20px;
+}
+
+.pricing-plan h2 {
+	background-color: #e05200;
+	color: white;
+	padding: 10px 10px 10px 20px;
+	font-size: 24px;
+}
+
+.feature-list {
+	padding: 10px 20px 20px 60px;
+}
+
+.highlight h2 {
+	background-color: #e02800;
+}
+
+@media only screen and (max-width: 991px) {
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1439px) {
+	
+}
+
+@media only screen and (min-width: 1440px) {
+	
+}
