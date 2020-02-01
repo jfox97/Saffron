@@ -31,7 +31,7 @@
 	line-height: 32px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 991px) {
 	
 	.main {
 		margin: 30px;
@@ -50,11 +50,48 @@
 	}
 }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 992px) and (max-width: 1439px) {
+	
+	.main {
+		width: 70%;
+		margin: 100px auto;
+		padding-right: 60px;
+	}
+	
+	.main img {
+		display: none;
+	}
+	
+	.details {
+		display: flex;
+		justify-content: space-around;
+		width: 70%;
+		margin: 0 auto;
+		padding-top: 100px;
+		margin-bottom: 100px;
+	}
+	
+	.detail {
+		max-width: 400px;
+		padding: 0px 20px;
+	}
+	
+	.detail p {
+		height: 160px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
 	
 	.main {
 		margin: 100px auto;
 		width: 80%;
+	}
+	
+	.main img {
+		width: 776px;
+		height: 277px;
+		margin: auto;
 	}
 	
 	.header {
