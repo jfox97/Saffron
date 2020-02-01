@@ -2,13 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	width: 80%;
-	margin: 100px auto;
-}
-
-.header {
-	margin: 30px 30px 30px 100px;
-	width: 530px;
 }
 
 .header h1 {
@@ -28,19 +21,6 @@
 	padding: 10px 40px;
 }
 
-.details {
-	display: flex;
-	justify-content: space-around;
-	width: 70%;
-	margin: 0 auto;
-	padding-top: 100px;
-	margin-bottom: 100px;
-}
-
-.detail {
-	width: 400px;
-}
-
 .detail h3 {
 	font-size: 36px;
 	font-weight: 900;
@@ -49,5 +29,53 @@
 .detail p {
 	font-size: 18px;
 	line-height: 32px;
-	height: 130px;
+}
+
+@media only screen and (max-width: 425px) {
+	
+	.main {
+		margin: 30px;
+	}
+	
+	.main img {
+		display: none;
+	}
+	
+	.details {
+		margin: 80px 50px 50px 50px;
+	}
+	
+	.detail {
+		margin: 50px 0px;
+	}
+}
+
+@media only screen and (min-width: 426px) {
+	
+	.main {
+		margin: 100px auto;
+		width: 80%;
+	}
+	
+	.header {
+		margin: 30px 30px 30px 100px;
+		width: 530px;
+	}
+	
+	.details {
+		display: flex;
+		justify-content: space-around;
+		width: 70%;
+		margin: 0 auto;
+		padding-top: 100px;
+		margin-bottom: 100px;
+	}
+	
+	.detail {
+		width: 400px;
+	}
+	
+	.detail p {
+		height: 130px;
+	}
 }
