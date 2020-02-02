@@ -17,7 +17,7 @@
 }
 
 .feature-list {
-	padding: 10px 40px 20px 60px;
+	padding: 10px 40px 10px 60px;
 }
 
 .highlight h2 {
@@ -28,12 +28,4 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
-
-@media only screen and (min-width: 1440px) {
-	
-	.pricing-matrix {
-		display: flex;
-		justify-content: center;
-	}
 }
