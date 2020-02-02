@@ -1,0 +1,45 @@
+.headers {
+	text-align: center;
+	margin: 80px 20px;
+}
+
+h2, h3, h4 {
+	margin: 20px auto;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+.contact-info {
+	margin: 80px 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.contact-info div {
+	line-height: 36px;
+	font-size: 18px;
+}
+
+.contact-labels {
+	text-align: right;
+	font-weight: 900;
+}
+
+.contact-details {
+	padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) and (min-height: 700px) {
+	
+	.absolute {
+		position: absolute;
+		bottom: 0;
+	}
+}
