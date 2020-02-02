@@ -43,6 +43,10 @@
 		display: none;
 	}
 	
+	.header {
+		text-align: center;
+	}
+	
 	.details {
 		margin: 80px 50px 50px 50px;
 	}
