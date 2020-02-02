@@ -4,10 +4,12 @@
 
 .pricing-plan {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	line-height: 38px;
 	margin: 40px 20px;
 }
 
 .pricing-plan h2 {
+	height: 76px;
 	background-color: #e05200;
 	color: white;
 	padding: 10px 10px 10px 20px;
@@ -26,15 +28,6 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
-
-/* Weird block to make footer work */
-@media only screen and (min-width: 1351px) {
-	
-	.absolute {
-		position: absolute;
-		bottom: 0;
-	}
 }
 
 @media only screen and (min-width: 1440px) {
