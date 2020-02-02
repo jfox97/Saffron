@@ -22,13 +22,10 @@
 	background-color: #e02800;
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1439px) {
-	
-	.pricing-matrix {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
+.pricing-matrix {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 /* Weird block to make footer work */
